@@ -1,0 +1,28 @@
+{
+  "name": "cardfolio",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "expo": "~55.0.0",
+    "react": "19.2.0",
+    "react-native": "0.83.2",
+    "expo-dev-client": "~55.0.0",
+    "expo-file-system": "~55.0.0",
+    "expo-image-picker": "~55.0.0",
+    "expo-crypto": "~55.0.0",
+    "expo-document-scanner": "1.0.0",
+    "expo-ocr-kit": "0.1.4",
+    "react-native-nitro-modules": "^0.37.0",
+    "react-native-safe-area-context": "~5.6.2",
+    "@react-native-async-storage/async-storage": "2.2.0"
+  }
+}
